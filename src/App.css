@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+
+body{
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.menu-icon{
+  width: 35px;
+  height: 25px;
+  color: white;
+  margin: 2px 0;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-logo-container{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 75%;
+  width: 10%;
+  border-radius: 25px;
+  background-color: yellow;
+  margin-left: 39em;
+  margin-right: auto;
+}
+
+.navbar-logo-text{
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.navbar-toggle{
   color: white;
+  position: fixed;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-footer{
+  height: 2.5rem;
+ background-color: lightgrey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-footer-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75%;
+  width: 10%;
+  margin-left: 42.5em;
+  margin-right: auto;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar-footer-text{
+   font-weight: normal;
+   text-align: center;
 }

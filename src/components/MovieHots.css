@@ -1,0 +1,27 @@
+.whats-hot-title{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1em auto;
+    margin-left: auto;  
+    width: 100%;
+  }
+  
+.grid{
+    display: grid;
+    margin: 1em;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1em;
+    justify-content: center;
+  } 
+
+.moviedetails{
+    align-items: center;
+    text-align: center;
+    margin-top: 8px;
+}
